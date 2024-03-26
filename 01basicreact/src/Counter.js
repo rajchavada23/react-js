@@ -8,11 +8,19 @@ function Counter() {
   const addValue = () => {
     console.log("clicked", counter);
     // counter = counter + 1
-    setCounter(counter + 1);
+    if(counter < 20) {
+        setCounter(counter + 1)
+    } else {
+        alert("You have add more then 20 counter");
+    } 
   };
 
   const removeValue = () => {
-    setCounter(counter - 1)
+    if(counter >= 1) {
+      setCounter(counter - 1)
+    } else {
+      alert("You have remove more then 20 counter");
+    }
   };
 
   return (
