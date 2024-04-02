@@ -19,6 +19,7 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import User from "./components/User/User";
 import Github, { githubInfoLoader } from "./components/Github/Github";
+import MiniContext from "./MiniContext";
 
 // const router = createBrowserRouter([
 //   {
@@ -65,6 +66,7 @@ root.render(
     {/* <Color /> */}
     {/* <PasswordChanger /> */}
     {/* <CurrencyConvertor /> */}
-    <RouterProvider router={router} />
+    {/* <RouterProvider router={router} /> */}
+    <MiniContext />
   </React.StrictMode>
 );
