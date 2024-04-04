@@ -20,7 +20,8 @@ import Contact from "./components/Contact/Contact";
 import User from "./components/User/User";
 import Github, { githubInfoLoader } from "./components/Github/Github";
 // import MiniContext from "./MiniContext";
-import ThemeSwitcher from "./ThemeSwitcher";
+// import ThemeSwitcher from "./ThemeSwitcher";
+import TodoContextLocal from "./TodoContextLocal";
 
 // const router = createBrowserRouter([
 //   {
@@ -69,6 +70,7 @@ root.render(
     {/* <CurrencyConvertor /> */}
     {/* <RouterProvider router={router} /> */}
     {/* <MiniContext /> */}
-    <ThemeSwitcher />
+    {/* <ThemeSwitcher /> */}
+    <TodoContextLocal />
   </React.StrictMode>
 );
